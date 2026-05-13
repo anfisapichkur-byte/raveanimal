@@ -24,7 +24,6 @@ body {
   --title-font: "Marker Felt", "Comic Sans MS", fantasy;
 }
 
-/* ОБЩИЙ ФОРМАТ 1440x810 */
 
 .page {
   width: 1440px;
@@ -34,7 +33,7 @@ body {
   position: relative;
 }
 
-/* HEADER */
+/* шапка */
 
 .header {
   width: 1440px;
@@ -96,7 +95,7 @@ body {
   color: var(--green);
 }
 
-/* ГЛАВНАЯ */
+/* глав */
 
 .hero {
   background:
@@ -192,7 +191,7 @@ body {
   font-weight: 400;
 }
 
-/* LINEUP PAGE */
+/* лайнап */
 
 .lineup-page {
   background: #000;
@@ -210,7 +209,6 @@ body {
   font-weight: 400;
 }
 
-/* КОНТЕЙНЕР */
 
 .lineup-wrapper {
   width: 620px;
@@ -218,7 +216,6 @@ body {
   position: relative;
 }
 
-/* КАРТИНКА */
 
 .lineup-img {
   width: 100%;
@@ -227,7 +224,6 @@ body {
   object-fit: contain;
 }
 
-/* ПОДПИСИ */
 
 .animal-name {
   position: absolute;
@@ -241,7 +237,7 @@ body {
   white-space: nowrap;
 }
 
-/* ВЕРХНИЕ */
+/* верх */
 
 .lion {
   color: var(--purple);
@@ -276,7 +272,7 @@ body {
   right: -15px;
 }
 
-/* ГАЛЕРЕЯ */
+/* галерея */
 
 .gallery-page {
   background: #000;
@@ -316,7 +312,7 @@ body {
   color: #000;
 }
 
-/* БИЛЕТ */
+/* билет */
 
 .ticket-section {
   background: #000;
@@ -369,7 +365,7 @@ body {
   color: #000;
 }
 
-/* ДЕКОР НА СТРАНИЦЕ БИЛЕТА */
+/* дек */
 
 .decor {
   position: absolute;
@@ -414,7 +410,7 @@ body {
   bottom: 80px;
 }
 
-/* ABOUT PAGE */
+/*о нас*/
 
 .about-page {
   background: #000;
