@@ -1,7 +1,7 @@
-const buttons = document.querySelectorAll("button");
+let allButtons = document.getElementsByTagName("button");
 
-buttons.forEach(button => {
-  button.addEventListener("click", () => {
-    alert("Скоро здесь будет покупка билета 🐾");
-  });
-});
+for (let i = 0; i < allButtons.length; i++) {
+    allButtons[i].onclick = function () {
+        alert("Скоро здесь будет покупка билета 🐾");
+    };
+}
